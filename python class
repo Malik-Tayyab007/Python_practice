@@ -1,0 +1,28 @@
+class Person:
+    def __init__(abc, name, age, address):
+        abc._name = name
+        abc._age = age
+        abc._address = address
+    def get_name(abc):
+        return abc._name
+    
+    def set_name(abc,na):
+        abc._name= na
+    
+    def get_age(abc):
+        return abc._age
+    
+    def set_age(abc,ag):
+        abc._age= ag
+    
+    def get_add(abc):
+        return abc._address
+    
+    def set_add(abc,add):
+        abc._address= add
+    
+p1 = Person("tayyab",10,"hello je")
+
+print("name:", p1.get_name())
+p1.set_name("sahhod")
+print("name:", p1.get_name())
